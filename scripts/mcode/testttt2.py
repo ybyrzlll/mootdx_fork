@@ -13,7 +13,7 @@ client = Quotes.factory(
     verbose=False  # 关闭冗余日志
 )
 
-# 查询贵州茅台（代码需带市场后缀）
+# 查询实时行情（代码需带市场后缀）
 quote = client.quotes(symbol="600519")  # 上海股票需加 .sh 后缀
 print(quote)
 print(f"最新价: {quote['price']}, 成交量(手): {quote['volume']}")

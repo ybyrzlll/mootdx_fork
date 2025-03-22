@@ -67,3 +67,7 @@ target/
 .idea
 .github
 .DS_Store
+
+# 忽略所有 Excel 文件
+*.xlsx
+*.xls
